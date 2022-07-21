@@ -194,8 +194,6 @@ public:
     {
         if (m_Root == nullptr) return;
 
-        ConstNodePointer DELIMETER = nullptr;
-
         std::queue<ConstNodePointer> q;
         q.push(m_Root);
         q.push(DELIMETER);
